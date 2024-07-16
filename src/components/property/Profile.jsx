@@ -9,16 +9,16 @@ import small from "../../images/small.png"
 
 const Profile = () => {
   return (
-    <div className='flex flex-col gap-[30px] px-[70px] bg-red-50'>
+    <div className='flex flex-col gap-[30px] md:px-[70px] bg-red-50 pt-[20px] '>
         <div className='flex flex-col gap-5'>
             <div className='flex gap-3 border-b-2 border-grey-900'>
-                <img src={small} alt="" />
+                <img className='w-[20px]' src={small} alt="" />
                 <p className=''>Solution</p>
             </div>
             
             <h3 className='text-2xl'>Key to clean future</h3>
         </div>
-        <div className='flex  gap-10'>
+        <div className='flex flex-col md:flex-row  gap-10 w-[90%] px-[20px]'>
             <div className='flex flex-col gap-10'>
                 <Profileprops
                     read='Read more'
