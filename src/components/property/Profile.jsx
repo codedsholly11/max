@@ -9,14 +9,14 @@ import small from "../../images/small.png"
 
 const Profile = () => {
   return (
-    <div className='flex flex-col gap-[30px] md:px-[70px] bg-red-50 pt-[20px] '>
+    <div className='flex flex-col gap-[30px] md:px-[70px] py-[50px] mt-[50px] bg-red-50 pt-[20px] items-center md:items-start m-[10px] rounded-lg'>
         <div className='flex flex-col gap-5'>
-            <div className='flex gap-3 border-b-2 border-grey-900'>
-                <img className='w-[20px]' src={small} alt="" />
-                <p className=''>Solution</p>
+            <div className='flex gap-3 border-b-2 border-grey-900 px-[20px] '>
+                <img className='w-[30px] ' src={small} alt="" />
+                <p className='md:w-[75vw] w-[60vw]'>Solution</p>
             </div>
             
-            <h3 className='text-2xl'>Key to clean future</h3>
+            <h3 className='text-2xl px-[20px] text-center md:text-start'>Key to clean future</h3>
         </div>
         <div className='flex flex-col md:flex-row  gap-10 w-[90%] px-[20px]'>
             <div className='flex flex-col gap-10'>
@@ -35,7 +35,7 @@ const Profile = () => {
                 />
             </div>
 
-            <div className='flex flex-col gap-10'>
+            <div className='flex flex-col gap-10 '>
                 <Profileprops
                     read='Read more'
                     paragraph= 'Solar panels convert sunlight into electricity. Photovoltaic (PV) cells on these panels capture the energy from the sun and convert it into electrical power.'

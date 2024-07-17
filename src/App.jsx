@@ -11,6 +11,7 @@ import Api from './components/Api'
 import Faq from './components/faq'
 import Foot from './components/foot'
 import Footer from './components/footer'
+import About from './components/About'
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
       <Faq/>
       <Foot/>
       <Footer/>
+      {/* <About/> */}
 
           {/* <Api /> */}
       

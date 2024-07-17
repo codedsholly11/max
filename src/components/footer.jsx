@@ -6,37 +6,40 @@ import insta from '../images/insta.png'
 
 const footer = () => {
   return (
-    <div className='w-[100%] flex flex-col md:flex-row items-center md:items-start gap-4  justify-between px-[70px] py-[10vh]'>
-        <div className='w-[100%]'>
-            <img src={brandlogo} alt="" />
-        </div>
-        <div className='w-[100%]'>
-            <ul className='flex flex-col text-start gap-4'>
-                <li>Platform</li>
-                <li>Solution</li>
-                <li>How it works</li>
-                <li>Pricing</li>
-            </ul>
+    <div className='w-[100%] flex flex-col md:flex-row md:items-start gap-4 items-center justify-between px-[70px] py-[10vh]'>
+       
+            <div className='w-[100%]'>
+                <img src={brandlogo} alt="" />
+            </div>
+        {/* <div className=''> */}
+            <div className='w-[100%]'>
+                <ul className='flex flex-col text-start gap-4'>
+                    <li>Platform</li>
+                    <li>Solution</li>
+                    <li>How it works</li>
+                    <li>Pricing</li>
+                </ul>
 
-        </div>
-        <div className='w-[100%]'>
-            <ul className='flex flex-col text-start gap-4'>
-                <li>Company</li>
-                <li>About</li>
-                <li>Career <span>HIRING</span></li>
-                <li>Our Mission</li>
-                <li>Contact</li>
-            </ul>
-        </div>
-        <div className='w-[100%]'>
-            <ul className='flex flex-col  gap-4'>
-                <li>Resources</li>
-                <li>Blog</li>
-                <li>Help Center</li>
-                <li>Support</li>
-            </ul>
-        </div>
-        <div className='flex md:flex-col gap-[20px] w-[100%]'>
+            </div>
+            <div className='w-[100%]'>
+                <ul className='flex flex-col text-start gap-4'>
+                    <li>Company</li>
+                    <li>About</li>
+                    <li>Career <span>HIRING</span></li>
+                    <li>Our Mission</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div className='w-[100%]'>
+                <ul className='flex flex-col  gap-4'>
+                    <li>Resources</li>
+                    <li>Blog</li>
+                    <li>Help Center</li>
+                    <li>Support</li>
+                </ul>
+            </div>
+       {/* </div> */}
+        <div className='flex md:flex-col gap-[20px] w-[100%] items-center'>
             <div className='flex gap-2 items-center'>
                 <img src={face} alt="" />
                 <p className='md:flex hidden'>Follow us on Facebook</p>

@@ -15,7 +15,7 @@ import image9 from '../../images/Image-9.png'
 const Profiler = () => {
   return (
   <div className='flex md:px-[70px] gap-[30px] flex-col md:flex-row items-center md:items-start '>
-    <div className='flex flex-col md:w-[55%] w-[90%] '>
+    <div className='flex flex-col md:w-[55%] w-[80%] '>
       <div>
         <img src={image9} alt="" />
 

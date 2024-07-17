@@ -2,7 +2,7 @@ import React from 'react'
 
 const profileprops = (props) => {
   return (
-    <div className='flex flex-col gap-3'>
+    <div className='flex flex-col gap-3 items-center md:items-start md:text-start text-center'>
       <img className='image w-[40px]' src={props.pic} alt="pic" />
       <h1 className='text-2xl'>{props.name}</h1>
       <p className='text-sm'>{props.paragraph}</p>
