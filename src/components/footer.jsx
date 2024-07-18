@@ -4,14 +4,14 @@ import face from '../images/face.png'
 import linkdin from '../images/linkdin.png'
 import insta from '../images/insta.png'
 
-const footer = () => {
+const Footer = () => {
   return (
-    <div className='w-[100%] flex flex-col md:flex-row md:items-start gap-4 items-center justify-between px-[70px] py-[10vh]'>
+    <div className='w-[100%] md:bg-purple-300 bg-green-200 flex flex-col md:flex-row md:items-start gap-4 items-center justify-between px-[70px] py-[10vh]'>
        
             <div className='w-[100%]'>
                 <img src={brandlogo} alt="" />
             </div>
-        {/* <div className=''> */}
+    
             <div className='w-[100%]'>
                 <ul className='flex flex-col text-start gap-4'>
                     <li>Platform</li>
@@ -38,7 +38,7 @@ const footer = () => {
                     <li>Support</li>
                 </ul>
             </div>
-       {/* </div> */}
+       
         <div className='flex md:flex-col gap-[20px] w-[100%] items-center'>
             <div className='flex gap-2 items-center'>
                 <img src={face} alt="" />
@@ -58,4 +58,4 @@ const footer = () => {
   )
 }
 
-export default footer
+export default Footer

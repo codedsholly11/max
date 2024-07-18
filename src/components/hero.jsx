@@ -5,10 +5,10 @@ import poster from '../images/poster.png'
 
 const hero = () => {
   return (
-    <div className='md:flex-row flex flex-col items-center justify-between md:px-[70px]'>
+    <div className='md:flex-row flex flex-col items-center justify-between md:px-[70px] flex-wrap'>
         <div className='flex flex-col gap-8 md:w-[40%] w-[90%]'>
             <div className='flex gap-3'>
-                <img className='md:w-[20px] ' src= {small}alt="" />
+                <img className='md:w-[20px] ' src= {small} alt="" />
                 <p>Powering Tomorrow</p>
             </div>
             <div className='flex flex-col gap-6'>

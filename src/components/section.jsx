@@ -18,7 +18,7 @@ const section = () => {
                 <button className='bg-green-400 rounded-full px-[12px] md:w-[10vw] h-[6vh]'>Read more</button>
             </div>
         </div>
-        <div className='flex gap-5 flex-col md:flex-row w-[100%] items-center'>
+        <div className='flex gap-5 flex-col md:flex-row md:justify-center md:items-center w-[100%] items-center'>
             <img className='h-[53vh] w-[80vw]' src={window} alt="" />
             <img className='h-[53vh]' src={window2} alt="" />
             <img className='h-[53vh]' src={window3} alt="" />
